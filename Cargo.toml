@@ -1,0 +1,8 @@
+[package]
+name = "mycrate"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+sha2 = "0.10.2"
+mybindep = { path = "mybindep", artifact = "bin" }
